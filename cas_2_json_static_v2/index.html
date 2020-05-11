@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ajax - JSON statique</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootswatch/4.4.1/journal/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0d2eTc91EqtDkt3Y50+J9rW3tCXJWw6/lDgf1QNHLlV0fadTyvcA120WPsSOlwga" crossorigin="anonymous">
+        <script src="service.js"></script>
+</head>
+<body class="text-center">
+    <header class="bg-primary m-5">
+        <h1>JSON Statique</h1>
+        <p>XMLHttpRequest CAS N°2 
+            <br>
+            Ajax et envoie de contenu JSON statique sans chargement
+        </p>
+    </header>
+    <main class="container">
+        <nav>
+            <button class="btn btn-success my-5" id="xhr-button">
+                Envoyer une requête en AJAX 
+                <i class="fas fa-share"></i>
+            </button>
+        </nav>
+        <div class="border bg-secondary p-5">
+            <h2>Zone de reception de la réponse</h2>
+            <br>
+            <div id="xhr-response"></div>
+        </div>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
